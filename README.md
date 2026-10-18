@@ -2,6 +2,8 @@
 
 Código do site Meraki Sites, portfólio de Marcos Mariano para apresentar sua direção visual e seu trabalho em sites e experiências digitais. O repositório contém os arquivos estáticos do site: HTML, SVG e imagens de apresentação. Não há backend neste projeto.
 
+Antes de editar, leia o [estado atual](PROJECT_STATUS.md), o [histórico de alterações](CHANGELOG.md) e as [orientações de trabalho](AGENTS.md). Toda alteração deve ter um registro no histórico; atualize também o estado atual quando a mudança afetar comportamento, conteúdo, implantação ou pendências.
+
 ## Visualização
 
 Abra `index.html` no navegador ou sirva a pasta com `python -m http.server 8000`. O portfólio usa fontes do Google e incorpora uma prévia de site externo, que dependem de conexão para carregar.
