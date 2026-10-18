@@ -1,6 +1,6 @@
 # Meraki — portfólio de web design
 
-Versão pública do portfólio Meraki, preparada para apresentar a direção visual e o trabalho em sites e experiências digitais. O repositório contém somente os arquivos estáticos necessários para visualizar o site: HTML, SVG e imagens de apresentação.
+Código do site Meraki Sites, portfólio de Marcos Mariano para apresentar sua direção visual e seu trabalho em sites e experiências digitais. O repositório contém os arquivos estáticos do site: HTML, SVG e imagens de apresentação. Não há backend neste projeto.
 
 ## Visualização
 
@@ -8,8 +8,8 @@ Abra `index.html` no navegador ou sirva a pasta com `python -m http.server 8000`
 
 ## Projetos
 
-Os cartões distinguem projetos publicados de prévias locais. A página do Jardim Secreto está identificada como **prévia local / não publicada**; o cartão não aponta para uma publicação de produção.
+Os cartões distinguem projetos publicados de prévias locais. Jardim Secreto e Área de Membros estão identificados como **prévias locais**; esses cartões não apontam para uma publicação de produção. A prévia da área de membros usa arte em CSS, sem captura de telas ou dados de alunos.
 
 ## Segurança
 
-Esta cópia não inclui arquivos `.env`, chaves, banco de dados, área de membros, cadastros ou dados de clientes. Antes de incluir qualquer novo arquivo no repositório, revise-o para evitar a publicação de informações privadas.
+Este repositório não inclui arquivos `.env`, chaves, banco de dados, sistema de área de membros, cadastros ou dados de clientes. Antes de incluir qualquer novo arquivo, revise-o para evitar a publicação de informações privadas.

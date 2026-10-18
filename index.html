@@ -290,6 +290,24 @@
       .live-card--jardim .live-meta::before { content: '04'; }
       .live-card--jardim .live-meta-label, .live-card--jardim .live-meta h3 i { color: #f0d787; }
       .live-card--jardim .live-meta-bottom b { border: 1px solid rgba(245,235,202,.36); color: #f6e7b7; background: rgba(255,255,255,.1); font-size: .65rem; }
+      .live-card--members .live-browser { background: linear-gradient(135deg, #121b3c 0%, #344882 52%, #a285d8 100%); }
+      .live-card--members .live-browser::before { left: auto; right: -25%; bottom: -43%; background: #cdb9ff; opacity: .78; }
+      .live-card--members .live-browser::after { top: -22%; right: auto; left: -15%; width: 59%; border-color: rgba(221,204,255,.68); }
+      .live-card--members .live-window { background: #f6f7ff; }
+      .live-card--members .live-window-bar { color: #e8e4ff; background: rgba(22,31,70,.96); }
+      .live-card--members .live-window-dots b { background: #cbb6ff; }
+      .live-card--members .live-fallback { color: #faf8ff; background: linear-gradient(135deg, #152045 0%, #33477f 62%, #876dc0 100%); }
+      .live-card--members .live-fallback::after { right: -11%; bottom: -21%; width: 51%; border-color: rgba(218,199,255,.58); }
+      .members-mark { color: #d6c3ff; font: 700 .68rem var(--sans); letter-spacing: .12em; text-transform: uppercase; }
+      .members-copy { position: relative; z-index: 1; max-width: 66%; margin-top: 18%; }
+      .members-copy small { display: inline-block; padding: .35rem .5rem; border: 1px solid rgba(218,200,255,.55); border-radius: 99px; color: #ddd0ff; font: .49rem var(--mono); letter-spacing: .07em; text-transform: uppercase; }
+      .members-copy strong { display: block; margin-top: 1rem; font-size: clamp(2rem, 4vw, 4.2rem); letter-spacing: -.09em; line-height: .84; }
+      .members-copy strong i { color: #d8c4ff; font-family: var(--serif); font-weight: 400; }
+      .members-copy span { display: block; margin-top: 1rem; color: #e6e0f5; font-size: .68rem; line-height: 1.45; }
+      .live-card--members .live-meta { background: linear-gradient(160deg, #6a57ba, #23254f); }
+      .live-card--members .live-meta::before { content: '05'; }
+      .live-card--members .live-meta-label, .live-card--members .live-meta h3 i { color: #dbc7ff; }
+      .live-card--members .live-meta-bottom b { border: 1px solid rgba(224,211,255,.42); color: #e7dcff; background: rgba(255,255,255,.12); font-size: .65rem; }
       .live-card--local { cursor: default; }
       .live-card--local:hover { border-color: rgba(245,243,239,.2); box-shadow: 0 32px 65px rgba(0,0,0,.32); transform: none; }
       .live-card--local:hover .live-window { transform: perspective(900px) rotateY(-3deg) rotateX(1.5deg); }
@@ -773,6 +791,27 @@
                   <p>Uma experiência sensorial para restaurante, com atmosfera natural, cardápio visual e convites para descobrir Penedo sem pressa.</p>
                 </div>
                 <div class="live-meta-bottom"><span>Prévia local · em desenvolvimento</span><b aria-hidden="true">●</b></div>
+              </div>
+            </article>
+
+            <article class="live-card live-card--members live-card--static live-card--local reveal reveal-fold" aria-labelledby="members-title">
+              <div class="live-browser">
+                <div class="live-window">
+                  <div class="live-window-bar"><span class="live-window-dots"><b></b><b></b><b></b></span><span>área de membros / prévia local</span></div>
+                  <div class="live-fallback" aria-hidden="true">
+                    <div class="members-mark">Área do aluno</div>
+                    <div class="members-copy"><small>Produto digital / educação</small><strong>Aprender<br />no seu <i>ritmo.</i></strong><span>Cursos, progresso e uma jornada pensada para manter o aluno em movimento.</span></div>
+                  </div>
+                  <div class="live-frame-sheen" aria-hidden="true"></div>
+                </div>
+              </div>
+              <div class="live-meta">
+                <div>
+                  <span class="live-meta-label">Produto digital / educação</span>
+                  <h3 id="members-title">Área de <i>membros.</i></h3>
+                  <p>Uma experiência de aprendizagem organizada para dar autonomia ao aluno, com aulas, cursos e progresso sempre à vista.</p>
+                </div>
+                <div class="live-meta-bottom"><span>Prévia local · interface de portfólio</span><b aria-hidden="true">●</b></div>
               </div>
             </article>
           </div>
